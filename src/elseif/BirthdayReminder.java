@@ -12,7 +12,7 @@ public class BirthdayReminder {
 	
 		// 1. correct the birthdays for your family below
 		String moms = "Febuary 25th";
-		String dads = "September 16th";
+		String dads = "September 11th";
 		String drews = "Febuary 7th";
 
 		// 2. Find out which birthday the user wants and and store their response in a variable
@@ -25,7 +25,7 @@ public class BirthdayReminder {
 		}
 		// 5. if user asked for "dad"
 		if (answer.equals("dads")) {
-			JOptionPane.showMessageDialog(null, "September 16th");
+			JOptionPane.showMessageDialog(null, "September 11th");
 		}
 		// 6. if user asked for your name
 		if (answer.equals("drews")) {
